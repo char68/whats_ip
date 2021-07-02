@@ -1,6 +1,7 @@
 -module(whats_ip).
 -export([start/0, start/1]).
 -author("Dennis McGrogan <char68.net>").
+-original_source("https://stackoverflow.com/a/2219330").
 
 %% Starts whats_ip service on port 80
 start() ->
